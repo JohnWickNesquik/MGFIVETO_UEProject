@@ -25,6 +25,12 @@ class AMGFPSProjectile : public AActor
 	UPROPERTY(EditDefaultsOnly,Category="FX")
 	UParticleSystem*ExplosionEffect;
 
+	UPROPERTY(EditDefaultsOnly,Category="FX")
+	UParticleSystem*ExplosionSound;
+
+	UPROPERTY(EditDefaultsOnly,Category="FX")
+	USoundBase*HitwallSound;
+
 public:
 	AMGFPSProjectile();
 
